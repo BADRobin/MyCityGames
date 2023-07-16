@@ -23,7 +23,8 @@ public class Main {
             for (String city: cities){
                 char firstChar = city.charAt(0);
                 if (Character.toLowerCase(lastChar) == Character.toLowerCase(firstChar)){
-                    
+                    System.out.println("Моє місто: " + city);
+                    break;
                 }
 
             }
@@ -32,7 +33,15 @@ public class Main {
     public static void fillCities() {
         cities.add("Київ");
         cities.add("Одеса");
+        cities.add("Миколаїв");
         cities.add("Вінниця");
+        cities.add("Ялта");
+        cities.add("Алчевськ");
+        cities.add("Житомир");
+        cities.add("Львів");
+        cities.add("Луцьк");
+        cities.add("Рівно");
+
 
 
     }
